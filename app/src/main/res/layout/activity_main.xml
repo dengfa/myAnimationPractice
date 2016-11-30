@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@mipmap/wrong_result_bg">
+
+    <ImageView
+        android:id="@+id/champion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@mipmap/wrong_result_champion_1"/>
+
+    <ImageView
+        android:id="@+id/champion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleX="0"
+        android:scaleY="0"
+        android:src="@mipmap/wrong_result_champion_2"/>
+
+    <ImageView
+        android:id="@+id/champion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:alpha="0"
+        android:rotationY="300"
+        android:src="@mipmap/wrong_result_champion_3"/>
+
+    <ImageView
+        android:id="@+id/champion5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:scaleX="0"
+        android:scaleY="0"
+        android:src="@mipmap/wrong_result_champion_5"/>
+
+    <ImageView
+        android:id="@+id/champion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@mipmap/wrong_result_champion_4"/>
+    
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="test"/>
+
+    <ImageView
+        android:id="@+id/champion6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@mipmap/wrong_result_champion_6"
+        android:layout_alignBottom="@+id/champion4"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+
