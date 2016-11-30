@@ -5,13 +5,41 @@
     android:layout_height="300dp"
     android:background="@mipmap/wrong_result_bg">
 
+    <RelativeLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp">
+
+        <ImageView
+            android:id="@+id/champion8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:scaleX="0"
+            android:transformPivotX="50dp"
+            android:src="@mipmap/wrong_result_champion_8"/>
+
+        <ImageView
+            android:id="@+id/champion7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:scaleX="0"
+            android:transformPivotX="0dp"
+            android:src="@mipmap/wrong_result_champion_7"/>
+
+    </RelativeLayout>
+
     <ImageView
         android:id="@+id/champion1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:scaleX="1"
-        android:scaleY="1"
+        android:scaleX="0"
+        android:scaleY="0"
         android:src="@mipmap/wrong_result_champion_1"/>
 
     <ImageView
@@ -29,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:alpha="0"
-        android:rotationY="300"
+        android:rotationY="45"
         android:src="@mipmap/wrong_result_champion_3"/>
 
     <ImageView
@@ -48,10 +76,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="91dp"
-        android:scaleX="1"
-        android:scaleY="1"
+        android:scaleX="0"
+        android:scaleY="0"
         android:src="@mipmap/wrong_result_champion_4"/>
-    
+
     <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"
@@ -64,12 +92,23 @@
         android:id="@+id/champion6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleX="1"
-        android:scaleY="1"
-        android:src="@mipmap/wrong_result_champion_6"
-        android:layout_alignBottom="@+id/champion4"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:scaleX="0"
+        android:scaleY="0"
+        android:src="@mipmap/wrong_result_champion_6"/>
 
+    <TextView
+        android:id="@+id/tv_super"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:text="超级学霸"
+        android:textSize="20sp"
+        android:scaleX="0"
+        android:scaleY="0"
+        android:textColor="@android:color/white"/>
 </RelativeLayout>
 
 
